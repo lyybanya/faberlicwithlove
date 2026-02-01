@@ -9,7 +9,7 @@
 
 body{
 	width: 100%;
-	min-width: 640px;
+	min-width: 560px;
 	height: 100%;
     font-size: 18px;
     color: #0E0D0D;
@@ -117,7 +117,7 @@ span{
 }
 
 .gray_block {
-	margin: 20px 40px;
+	margin: 20px 30px;
 	padding: 10px 10px;
 	background-color: #fcfcfc;
 	border-style: solid;
@@ -130,7 +130,7 @@ span{
 }
 
 .mint_block {
-	margin: 20px 40px;
+	margin: 20px 30px;
 	padding: 20px 20px;
 	background-color: #defaf7;
     border-style: solid;
@@ -143,7 +143,7 @@ span{
 }
 
 p{
-	margin: 10px 10px;
+	margin: 5px 5px;
 }
 
 .s_block:first-letter {
