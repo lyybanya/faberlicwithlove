@@ -111,7 +111,7 @@ span{
 }
 
 .sale_list{
-	margin: 5px 20px;
+	margin: 5px auto;
 }
 
 .gray_block {
@@ -153,18 +153,14 @@ p{
 .sale_banner{
 	width: 150px;
 	min-width: 25%;
-	display:flex;
-	float: right;
-	align-self:justify;
+	display:block;
 	margin: 15px auto;
 }
 
 .register_banner{
 	width: 150px;
 	min-width: 25%;
-	display:flex;
-	float:left;
-	align-self:justify;
+	display:block;
 	margin: 15px auto;
 }
 
@@ -263,7 +259,7 @@ p{
 }
 
 .video{
-	min-width:220px;
-	max-width: 100%;
+	min-width:200px;
+	max-width: 80%;
 	display:flex;
 }
