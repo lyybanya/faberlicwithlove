@@ -82,7 +82,7 @@ span{
     border-radius: 40px;
     background: #00d6be;
     z-index: -1;
-    transition: .4s;
+    transition: .2s;
 }
 
 .header_btn:hover::before{
@@ -116,7 +116,7 @@ span{
 }
 
 .gray_block {
-	margin: 2% 2%;
+	margin: 3% 3%;
 	padding: 10px 10px;
 	background-color: #fcfcfc;
 	border-style: solid;
@@ -129,7 +129,7 @@ span{
 }
 
 .mint_block {
-	margin: 2% 2%;
+	margin: 3% 3%;
 	padding: 10px 10px;
 	background-color: #defaf7;
     border-style: solid;
@@ -138,7 +138,7 @@ span{
 	border-radius: 10px;
 	text-align: justify;
 	box-shadow: 5px 5px 5px #777777;
-    align-content: stretch;
+    align-content: space-between;
 }
 
 p{
