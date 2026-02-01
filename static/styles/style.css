@@ -1,0 +1,253 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+  src: local("Pacifico-Regular");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    font-size: 18px;
+    color: #0E0D0D;
+    background-image: url("images/back.jpg");
+    background-repeat: repeat;
+    padding: 0 24px;
+}
+        
+span{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+    background: transparent;
+    align-items:center;
+    align-self: stretch;
+    font-size: 14px;
+    justify-content: space-around;
+}
+
+.header_menu{
+    padding: 0 270px;
+    justify-content:space-between;
+    align-items: center;
+	align-self: stretch;
+}
+
+.header_btn{
+    display: flex;
+	align-self:stretch;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    padding: 0 10px;
+    background: transparent;
+    border-color: transparent;
+    color: #211819;
+    border-radius: 40px;
+    text-decoration: none;
+    overflow:hidden;
+}
+
+.header_btn span{
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header_btn::before {
+    content: '';
+    position:absolute;
+    align-self: left;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background: #00d6be;
+    z-index: -1;
+    transition: .4s;
+}
+
+.header_btn:hover::before{
+    width: 140px;
+}
+
+
+.menu__list{
+    display: flex;
+    background: transparent;
+    gap: 0 10px;
+    align-self: stretch;
+    align-items: center;
+    justify-content: left;
+    list-style-type: none;
+}
+
+.menu__item{
+    text-transform: uppercase;
+}
+
+.header_image{
+    display:flex;
+    padding: 0 70px;
+	align-self:stretch;
+}
+
+.link_menu{
+    padding: 0 220px;
+    justify-content:space-between;
+    align-items: center;
+    align-self: stretch;
+    background: transparent;
+}
+
+.gray_block {
+	background-color: #fcfcfc;
+    margin: 25px 10px;
+	border-style: solid;
+	border-width: 0.7px;
+	border-color: #00d6be;
+	border-radius: 10px;
+	text-align: justify;
+	box-shadow: 5px 5px 5px #777777;
+    align-content: stretch;
+}
+
+.mint_block {
+	background-color: #defaf7;
+    margin: 25px 10px;
+    border-style: solid;
+	border-width: 0.7px;
+	border-color: #00d6be;
+	border-radius: 10px;
+	text-align: justify;
+	box-shadow: 5px 5px 5px #777777;
+    align-content: stretch;
+}
+
+p{
+	margin: 10px 10px;
+}
+
+.s_block:first-letter {
+	font-size: 250%;
+	font-style: italic;
+	color: #1c8767;
+}
+
+.sale_banner{
+	width: 300px;
+	height: 300px;
+	display:block;
+	float: right;
+	margin: 15px 25px;
+}
+
+.register_banner{
+	width: 300px;
+	height: 300px;
+	display:block;
+	float: left;
+	margin: 15px 25px;
+}
+
+.catalogue_banner{
+	display:block;
+    text-align: center;
+	margin: 15px auto;
+}
+
+.assort_banner{
+    width: 560px;
+    height: 330px;
+	display:block;
+    text-align: left;
+    float: left;
+	margin: auto 30px;
+    padding: 0px 0px;
+}
+
+.lesson_banner{
+	width: 300px;
+	height: 300px;
+	display:block;
+	float: right;
+	margin: 15px 25px;
+}
+
+.assort_block{
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    margin: 40px auto;
+}
+
+.mint_button{
+    font-family: "Pacifico";
+    font-size: 28px;
+    width: 300px;
+    height: 60px;
+    background-color: #defaf7;
+    border-color: #1c8767;
+    color: #1c8767;
+    border: 4px solid;
+    cursor:pointer;
+    position:relative;
+	margin: 15px 15px;
+
+    &::before {
+        content: "";
+        width: 20px;
+        height: 4px;
+        position: absolute;
+        left:0;
+        top: -4px;
+        display: block;
+        background:#defaf7;
+        transition: 500ms ease-in-out;
+    }
+
+    &::after {
+        content: "";
+        width: 20px;
+        height: 4px;
+        position: absolute;
+        right:0;
+        bottom: -4px;
+        display: block;
+        background:#defaf7;
+        transition: 500ms ease-in-out;
+    }
+
+    &:hover {
+        color:#00d6be;
+        &::before{
+            left: calc(100% - 20px);
+        }
+
+        &::after{
+            right: calc(100% - 20px);
+        }
+    }
+
+    &:active{
+        background: #d4d4d4;
+        color:#fcfcfc;
+    }
+}
+
+.v_block{
+	display: flex;
+	margin: 50px 150px;
+	justify-content: space-between;
+	align-self: stretch;
+}
+
+.v_text{
+	padding: 0px 25px;
+}
