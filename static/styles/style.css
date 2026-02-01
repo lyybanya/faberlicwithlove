@@ -8,8 +8,8 @@
 
 
 body{
-	width: 100%;
-	min-width: 560px;
+	max-width: 100%;
+	min-width: 460px;
 	height: 100%;
     font-size: 18px;
     color: #0E0D0D;
@@ -90,12 +90,13 @@ span{
 }
 
 .menu__list{
+	margin: 0px 50px;
+	padding: 10px 0px;
     display: flex;
     background: transparent;
-    gap: 0 10px;
-    align-self: right;
+    gap: 0 5px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
 }
 
