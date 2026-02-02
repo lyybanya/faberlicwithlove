@@ -145,10 +145,10 @@ p{
 }
 
 .portrait{
-    max-width: 25%;
-    min-width:15%;
-    max-height: 25%;
-    min-height:15%;
+    max-width: 30%;
+    min-width:25%;
+    max-height: 30%;
+    min-height:25%;
     display:flex;
     margin:5px auto;
 }
