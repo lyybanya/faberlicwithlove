@@ -34,13 +34,17 @@ span{
 	min-width: 300px;
     background: transparent;
     align-items:stretch;
-    font-size: 18px;
+    font-size: 12px;
+}
+
+.main_container{
+    font-size: 20px;
 }
 
 .header_menu{
 	display: flex;
 	align-self: flex-start;
-    align-items: left;
+    align-items: stretch;
 }
 
 #header_image{
@@ -50,43 +54,19 @@ span{
 }
 
 .header_btn{
-    display: flex;
-	align-self:stretch;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 	font-weight: bold;
-    width: 160px;
-    height: 40px;
+    width: 140px;
+    height: 20px;
+    margin: 0 10px;
     padding: 0 10px;
-    background: transparent;
+    background: #00d6be;
     border-color: transparent;
-    color: #211819;
+    color: white;
     border-radius: 40px;
     text-decoration: none;
     overflow:hidden;
-}
-
-.header_btn span{
-    text-transform: uppercase;
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 10px;
-}
-
-.header_btn::before {
-    content: '';
-    position:absolute;
-    align-self: left;
-    height: 40px;
-    width: 40px;
-    border-radius: 40px;
-    background: #00d6be;
-    z-index: -1;
-    transition: .2s;
-}
-
-.header_btn:hover::before{
-    width: 160px;
 }
 
 .menu__list{
@@ -128,6 +108,11 @@ span{
     align-content: space-between;
 }
 
+.intro_block{
+    display: flex;
+    justify-content: center;
+}
+
 .mint_block {
 	margin: 3% 3%;
 	padding: 10px 10px;
@@ -149,6 +134,23 @@ p{
 	font-size: 250%;
 	font-style: italic;
 	color: #1c8767;
+}
+
+.intro_text_block{
+    margin: 20px 10px;
+    padding: 5px 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color:#0E0D0D;
+}
+
+.portrait{
+    width: 35%;
+    min-width:25%;
+    height: 35%;
+    min-height:25%;
+    display:flex;
+    margin:5px auto;
 }
 
 .sale_banner{
