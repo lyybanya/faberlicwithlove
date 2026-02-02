@@ -11,7 +11,7 @@ body{
 	max-width: 100%;
 	min-width: 300px;
 	height: auto;
-    font-size: 22px;
+    font-size: 18px;
     color: #0E0D0D;
     background-image: url("images/back.jpg");
     background-repeat: repeat;
@@ -70,7 +70,7 @@ span{
     text-transform: uppercase;
     font-family: monospace;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .header_btn::before {
@@ -220,7 +220,7 @@ p{
         top: -4px;
         display: block;
         background:#defaf7;
-        transition: 500ms ease-in-out;
+        transition: 200ms ease-in-out;
     }
 
     &::after {
@@ -232,7 +232,7 @@ p{
         bottom: -4px;
         display: block;
         background:#defaf7;
-        transition: 500ms ease-in-out;
+        transition: 200ms ease-in-out;
     }
 
     &:hover {
@@ -250,9 +250,3 @@ p{
         background: #d4d4d4;
         color:#fcfcfc;
     }
-
-.video{
-	display:flex;
-	min-width:200px;
-	max-width: 40%;
-}
