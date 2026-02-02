@@ -108,10 +108,10 @@ span{
     align-content: space-between;
 }
 
-.intro_block{
+/*.intro_block{
     display: flex;
-    justify-content: center;
-}
+    justify-content: flex-start;
+}*/
 
 .mint_block {
 	margin: 3% 3%;
